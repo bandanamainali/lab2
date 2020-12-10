@@ -1,0 +1,90 @@
+qno3)
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Division cal</title>
+</head>
+<body>
+<script type="text/javascript">
+	var percentage=prompt("Enter your percentage");
+	if(percentage>=80){
+		alert("You Passed with Distinction");
+	}else if(percentage>=60){
+		alert("You Passed with First Division");
+	}else if(percentage>=50){
+		alert("You Passed with second Division");
+	}else if(percentage>=40){
+		alert("You Passed with third Division");
+	}else{
+		alert("You are fail");
+	}
+</script>
+</body>
+</html>
+
+qno1) 
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>greatest among 3</title>
+</head>
+<body>
+<script type="text/javascript">
+	var a=prompt("Enter your first number");
+	var b=prompt("enter your second number");
+	var c=prompt("enter your third number");
+	if(a>b&&a>c){
+		alert("a is greatest");
+	}else if(b>a&&b>c){
+		alert("b is greatest");
+	
+	}else{
+		alert("c is greatest");
+	}
+</script>
+</body>
+</html>
+qno2)
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>test of eligibility</title>
+</head>
+<body>
+<script type="text/javascript">
+	var a=prompt("Enter your age");
+	
+	if(a>=18){
+		alert("you are eligible to vote");
+
+	}else{
+		alert("you are not eligible to vote");
+	}
+</script>
+</body>
+</html>
+
+
+
+qno4)
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arithemetic Operations</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num1,num2,sum,difference,product,division,remainder;
+	num1=parseInt(prompt("Enter first number."));
+	num2=parseInt(prompt("Enter second number."));
+	sum=num1+num2;
+	difference=num1-num2;
+	product=num1*num2;
+	division=num1/num2;
+	remainder=num1%num2;
+	alert("Sum is "+sum+" difference is "+difference+"product is "+product+" division is "+division+" remainder is "+remainder);
+</script>
+</body>
+</html>
